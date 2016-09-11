@@ -27,6 +27,16 @@ buttons.bgcolor = #6f6f6f
 buttons.status.font = SansSerif,plain,13
 buttons.status.color = #ffffff
 
+# GUI - PLOTTING
+# color cycle created via colorbrewer2.org
+plotting.bgcolor = #ffffff
+plotting.color = #ffffff
+plotting.graphcolor.size = 4
+plotting.graphcolor.00 = #2c7bb6
+plotting.graphcolor.01 = #fdae61
+plotting.graphcolor.02 = #d7191c
+plotting.graphcolor.03 = #abd9e9
+
 # GUI - LINESTATUS
 linestatus.color = #ffffff
 linestatus.bgcolor = #424242
@@ -38,8 +48,9 @@ editor.fgcolor = #ededed
 editor.bgcolor = #404040
 
 # highlight for the current line
-editor.linehighlight=true
 editor.linehighlight.color=#e2e2e2
+# highlight for the current line
+editor.linehighlight=true
 
 # caret blinking and caret color
 editor.caret.color = #ffffff
@@ -57,21 +68,24 @@ editor.invalid.style = #7e7e7e,bold
 editor.eolmarkers = false
 editor.eolmarkers.color = #ffffff
 
-## bracket/brace highlighting
+# bracket/brace highlighting
 editor.brackethighlight = true
 editor.brackethighlight.color = #ff0000
 
 
 # TEXT - KEYWORDS
 
-# e.g abstract, final, private (void, for, while) (blue)
+# FUNCTIONS e.g abstract, final, private (void, for, while) (blue)
 editor.keyword1.style = #5ec7ff,plain
+editor.data_type.style = #5ec7ff,plain
 
-## e.g. beginShape, point, line (int, pinMode, analogwrite) (red)
+# METHODS e.g. beginShape, point, line (int, pinMode, analogwrite) (red)
 editor.keyword2.style = #f2527b,plain
+editor.function.style = #f2527b,plain
 
-# e.g. byte, char, short, color (setup, loop, Serial) (yellow)
+# STRUCTURES e.g. byte, char, short, color (setup, loop, Serial) (yellow)
 editor.keyword3.style = #ffd95e,bold
+editor.reserved_word.style = #ffd95e,bold
 
 
 # TEXT - LITERALS
@@ -81,6 +95,13 @@ editor.literal1.style = #ff9900,bold
 
 # p5 built in variables: e.g. mouseX, width, pixels
 editor.literal2.style = #5ec7ff,plain
+
+editor.variable.style = #00979c,plain
+editor.reserved_word_2.style = #00979c,plain
+editor.literal_boolean.style = #00979c,plain
+editor.literal_char.style = #00979c,plain
+editor.literal_string_double_quote.style = #005c5f,plain
+editor.preprocessor.style = #5e6d03,plain
 
 # http://arduino.cc/
 editor.url.style = #47a3ff,underlined
