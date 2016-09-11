@@ -1,41 +1,41 @@
 # GUI - STATUS
 status.notice.fgcolor = #000000
-status.notice.bgcolor = #54919e
+status.notice.bgcolor = #363636
 status.error.fgcolor = #ffffff
-status.error.bgcolor = #662000
+status.error.bgcolor = #805a51	
 status.edit.fgcolor = #000000
 status.edit.bgcolor = #cc9900
-status.font = SansSerif,plain,12
+status.font = Tahoma,plain,12
 
 # GUI - TABS
 # settings for the tabs at the top
 # (tab images are stored in the lib/theme folder)
-header.bgcolor = #216886
-header.text.selected.color = #1a1a00
+header.bgcolor = #a2a2a2
+header.text.selected.color = #ffffff
 header.text.unselected.color = #ffffff
-header.text.font = SansSerif,plain,12
+header.text.font = Tahoma,plain,13
 
 # GUI - CONSOLE
-console.font = Monospaced,plain,11
+console.font = Tahoma,plain,11
 console.font.macosx = Monaco,plain,10
 console.color = #000000
-console.output.color = #cccccc
-console.error.color = #ff3000
+console.output.color = #ffffff
+console.error.color = #805a51
 
 # GUI - BUTTONS
-buttons.bgcolor = #044f6f
-buttons.status.font = SansSerif,plain,12
+buttons.bgcolor = #6f6f6f
+buttons.status.font = Tahoma,plain,12
 buttons.status.color = #ffffff
 
 # GUI - LINESTATUS
 linestatus.color = #ffffff
-linestatus.bgcolor = #044f6f
+linestatus.bgcolor = #424242
 
 # EDITOR - DETAILS
 
 # foreground and background colors
-editor.fgcolor = #000000
-editor.bgcolor = #ffffff
+editor.fgcolor = #ededed
+editor.bgcolor = #363636
 
 # highlight for the current line
 editor.linehighlight.color=#e2e2e2
@@ -43,20 +43,20 @@ editor.linehighlight.color=#e2e2e2
 editor.linehighlight=true
 
 # caret blinking and caret color
-editor.caret.color = #333300
+editor.caret.color = #ffffff
 
 # color to be used for background when 'external editor' enabled
 editor.external.bgcolor = #c8d2dc
 
 # selection color
-editor.selection.color = #ffcc00
+editor.selection.color = #a2a2a2
 
 # area that's not in use by the text (replaced with tildes)
 editor.invalid.style = #7e7e7e,bold
 
 # little pooties at the end of lines that show where they finish
-editor.eolmarkers = false
-editor.eolmarkers.color = #999999
+editor.eolmarkers = true
+editor.eolmarkers.color = #ffffff
 
 # bracket/brace highlighting
 editor.brackethighlight = true
@@ -66,22 +66,22 @@ editor.brackethighlight.color = #006699
 # TEXT - KEYWORDS
 
 # e.g abstract, final, private
-editor.keyword1.style = #cc6600,plain
+editor.keyword1.style = #bf6171,plain
 
 # e.g. beginShape, point, line
-editor.keyword2.style = #cc6600,plain
+editor.keyword2.style = #759f5b,plain
 
 # e.g. byte, char, short, color
-editor.keyword3.style = #cc6600,bold
+editor.keyword3.style = #a99045,bold
 
 
 # TEXT - LITERALS
 
 # constants: e.g. null, true, this, RGB, TWO_PI
-editor.literal1.style = #006699,plain
+editor.literal1.style = #759f5b,plain
 
 # p5 built in variables: e.g. mouseX, width, pixels
-editor.literal2.style = #006699,plain
+editor.literal2.style = #759f5b,plain
 
 # e.g. + - = /
 editor.operator.style = #000000,plain
@@ -97,5 +97,5 @@ editor.comment2.style = #7e7e7e,plain
 
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
-linestatus.font	   = SansSerif,plain,10
+linestatus.font	   = Tahoma,plain,10
 linestatus.height  = 20
