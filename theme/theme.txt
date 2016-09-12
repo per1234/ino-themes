@@ -1,5 +1,5 @@
 # GUI - STATUS
-status.notice.fgcolor = #AAAAAA
+status.notice.fgcolor = #aaaaaa
 status.notice.bgcolor = #363636
 status.error.fgcolor = #ffffff
 status.error.bgcolor = #805a51	
@@ -20,7 +20,7 @@ console.font = Monospaced,plain,12
 console.font.macosx = Monaco,plain,11
 console.color = #000000
 console.output.color = #ffffff
-console.error.color = #CC3300
+console.error.color = #cc3300
 
 # GUI - BUTTONS
 buttons.bgcolor = #6f6f6f
@@ -48,7 +48,7 @@ editor.caret.color = #ffffff
 editor.external.bgcolor = #c8d2dc
 
 ## cursor background selection color
-editor.selection.color = #FFFFFF
+editor.selection.color = #ffffff
 
 # area that's not in use by the text (replaced with tildes)
 editor.invalid.style = #7e7e7e,bold
@@ -59,34 +59,34 @@ editor.eolmarkers.color = #ffffff
 
 ## bracket/brace highlighting
 editor.brackethighlight = true
-editor.brackethighlight.color = #FF0000
+editor.brackethighlight.color = #ff0000
 
 
 # TEXT - KEYWORDS
 
 # e.g abstract, final, private (void, for, while) (blue)
-editor.keyword1.style = #5EC7FF,plain
+editor.keyword1.style = #5ec7ff,plain
 
 ## e.g. beginShape, point, line (int, pinMode, analogwrite) (red)
-editor.keyword2.style = #F2527B,plain
+editor.keyword2.style = #f2527b,plain
 
 # e.g. byte, char, short, color (setup, loop, Serial) (yellow)
-editor.keyword3.style = #FFD95E,bold
+editor.keyword3.style = #ffd95e,bold
 
 
 # TEXT - LITERALS
 
 # constants: e.g. null, true, this, RGB, TWO_PI
-editor.literal1.style = #FF9900,bold
+editor.literal1.style = #ff9900,bold
 
 # p5 built in variables: e.g. mouseX, width, pixels
-editor.literal2.style = #5EC7FF,plain
+editor.literal2.style = #5ec7ff,plain
 
 # http://arduino.cc/
-editor.url.style = #47A3FF,underlined
+editor.url.style = #47a3ff,underlined
 
 # e.g. + - = /
-editor.operator.style = #FFFFFF,plain
+editor.operator.style = #ffffff,plain
 
 # ?? maybe this is for words followed by a colon
 # like in case statements or goto
@@ -94,8 +94,8 @@ editor.label.style = #969696,bold
 
 
 # TEXT - COMMENTS
-editor.comment1.style = #86DB51,plain
-editor.comment2.style = #86DB51,plain
+editor.comment1.style = #86db51,plain
+editor.comment2.style = #86db51,plain
 
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
