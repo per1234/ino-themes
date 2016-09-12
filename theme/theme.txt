@@ -48,7 +48,7 @@ editor.fgcolor = #ededed
 editor.bgcolor = #404040
 
 # highlight for the current line
-editor.linehighlight.color=#e2e2e2
+editor.linehighlight.color=#4d4d4d
 # highlight for the current line
 editor.linehighlight=true
 
