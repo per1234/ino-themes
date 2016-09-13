@@ -72,7 +72,7 @@ editor.preprocessor.style = #5e6d03,plain
 editor.url.style = #0000ff,underlined
 
 # e.g. + - = /
-editor.operator.style = #000000,plain
+editor.operator.style = #ededed,plain
 
 # ?? maybe this is for words followed by a colon
 # like in case statements or goto
