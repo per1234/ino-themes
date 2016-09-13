@@ -20,7 +20,7 @@ editor.bgcolor = #363636
 
 # highlight for the current line
 editor.linehighlight=true
-editor.linehighlight.color=#e2e2e2
+editor.linehighlight.color=#4d4d4d
 
 # caret blinking and caret color
 editor.caret.color = #ffffff
