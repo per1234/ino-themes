@@ -67,7 +67,7 @@ editor.variable.style = #00979c,plain
 editor.reserved_word_2.style = #00979c,plain
 editor.literal_boolean.style = #00979c,plain
 editor.literal_char.style = #00979c,plain
-editor.literal_string_double_quote.style = #005c5f,plain
+editor.literal_string_double_quote.style = #007b80,plain
 editor.preprocessor.style = #5e6d03,plain
 
 # http://arduino.cc/
