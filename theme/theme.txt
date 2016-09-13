@@ -6,19 +6,6 @@ status.error.bgcolor = #bd0d00
 status.edit.fgcolor = #000000
 status.edit.bgcolor = #00a1e4
 status.font = SansSerif,plain,12
-status.prompt.fgcolor = #000000
-status.prompt.bgcolor = #ff5500
-
-# GUI - HARDWARE CONTROL
-control.notice.fgcolor = #ffffff
-control.notice.bgcolor = #333332
-control.error.fgcolor = #ffffff
-control.error.bgcolor = #662000
-control.edit.fgcolor = #000000
-control.edit.bgcolor = #cc6600
-control.font = SansSerif,plain,10
-control.prompt.fgcolor = #000000
-control.prompt.bgcolor = #ff0055
 
 # GUI - TABS
 # settings for the tabs at the top
@@ -40,20 +27,20 @@ buttons.bgcolor = #f8f8f7
 buttons.status.font = SansSerif,plain,12
 buttons.status.color = #666666
 
-# GUI - MODE
-mode.button.bgcolor = #9ca6b0
-mode.button.font = SansSerif,plain,9
-mode.button.color = #4a545e
+# GUI - PLOTTING
+# color cycle created via colorbrewer2.org
+plotting.bgcolor = #ffffff
+plotting.color = #ffffff
+plotting.graphcolor.size = 4
+plotting.graphcolor.00 = #2c7bb6
+plotting.graphcolor.01 = #fdae61
+plotting.graphcolor.02 = #d7191c
+plotting.graphcolor.03 = #abd9e9
 
 # GUI - LINESTATUS
 linestatus.color = #ffffff
-linestatus.message.color = #bbbbbb
 linestatus.bgcolor = #666665
 
-# SERIALMONITOR
-serialmonitor.color = #000000
-serialmonitor.message.color = #ff0000
-serialmonitor.bgcolor = #ffffff
 
 # EDITOR - DETAILS
 
@@ -91,21 +78,31 @@ editor.brackethighlight.color = #006699
 
 # e.g abstract, final, private
 editor.keyword1.style = #cc6600,plain
+editor.data_type.style = #cc6600,bold
 
 # e.g. beginShape, point, line
 editor.keyword2.style = #cc6600,bold
+editor.function.style = #cc6600,plain
 
 # e.g. byte, char, short, color
 editor.keyword3.style = #cc6600,bold
+editor.reserved_word.style = #cc6600,plain
 
 
 # TEXT - LITERALS
 
 # constants: e.g. null, true, this, RGB, TWO_PI
 editor.literal1.style = #006699,plain
+editor.reserved_word_2.style = #006699,plain
 
 # p5 built in variables: e.g. mouseX, width, pixels
 editor.literal2.style = #006699,plain
+
+editor.variable.style = #006699,plain
+editor.literal_boolean.style = #006699,plain
+editor.literal_char.style = #006699,plain
+editor.literal_string_double_quote.style = #005c5f,plain
+editor.preprocessor.style = #5e6d03,plain
 
 editor.url.style = #ff5500,underlined
 
@@ -125,23 +122,3 @@ editor.comment2.style = #7e7e7e,plain
 # LINE STATUS - editor line number status bar at the bottom of the screen
 linestatus.font	   = SansSerif,plain,10
 linestatus.height  = 20
-
-
-# GUTTER - Editor gutter
-
-gutter.width = 16
-gutter.collapsed = false
-gutter.lineNumbers = true
-gutter.highlightInterval = 5
-gutter.highlightCurrentLine = true
-gutter.bgColor = #f8f8f8
-gutter.fgColor = #cacaca
-gutter.highlightColor = #aaaaaa
-#gutter.markerColor = #eaeaea
-#gutter.registerColor = #ff0000
-gutter.currentLineColor = #ff0055
-gutter.numberAlignment = right
-gutter.borderWidth = 1
-gutter.focusBorderColor = #ff5500
-gutter.noFocusBorderColor = #e2e2e2
-gutter.font = SansSerif,plain,10
