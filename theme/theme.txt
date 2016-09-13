@@ -1,11 +1,8 @@
-# GUI - STATUS
-status.notice.fgcolor = #aaaaaa
-status.notice.bgcolor = #363636
-status.error.fgcolor = #ffffff
-status.error.bgcolor = #805a51	
-status.edit.fgcolor = #000000
-status.edit.bgcolor = #cc9900
-status.font = SansSerif,plain,14
+# GUI - BUTTONS
+buttons.bgcolor = #6f6f6f
+buttons.status.font = SansSerif,plain,13
+buttons.status.color = #ffffff
+
 
 # GUI - TABS
 # settings for the tabs at the top
@@ -15,34 +12,8 @@ header.text.selected.color = #ffffff
 header.text.unselected.color = #ffffff
 header.text.font = SansSerif,plain,14
 
-# GUI - CONSOLE
-console.font = Monospaced,plain,12
-console.font.macosx = Monaco,plain,11
-console.color = #000000
-console.output.color = #ffffff
-console.error.color = #cc3300
 
-# GUI - BUTTONS
-buttons.bgcolor = #6f6f6f
-buttons.status.font = SansSerif,plain,13
-buttons.status.color = #ffffff
-
-# GUI - PLOTTING
-# color cycle created via colorbrewer2.org
-plotting.bgcolor = #ffffff
-plotting.color = #ffffff
-plotting.graphcolor.size = 4
-plotting.graphcolor.00 = #2c7bb6
-plotting.graphcolor.01 = #fdae61
-plotting.graphcolor.02 = #d7191c
-plotting.graphcolor.03 = #abd9e9
-
-# GUI - LINESTATUS
-linestatus.color = #ffffff
-linestatus.bgcolor = #424242
-
-# EDITOR - DETAILS
-
+# EDITOR
 # foreground and background colors
 editor.fgcolor = #ededed
 editor.bgcolor = #404040
@@ -72,9 +43,7 @@ editor.eolmarkers.color = #ffffff
 editor.brackethighlight = true
 editor.brackethighlight.color = #ff0000
 
-
 # TEXT - KEYWORDS
-
 # FUNCTIONS e.g abstract, final, private (void, for, while) (blue)
 editor.keyword1.style = #5ec7ff,plain
 editor.data_type.style = #5ec7ff,plain
@@ -87,9 +56,7 @@ editor.function.style = #f2527b,plain
 editor.keyword3.style = #ffd95e,bold
 editor.reserved_word.style = #ffd95e,bold
 
-
 # TEXT - LITERALS
-
 # constants: e.g. null, true, this, RGB, TWO_PI
 editor.literal1.style = #ff9900,bold
 
@@ -113,12 +80,42 @@ editor.operator.style = #ffffff,plain
 # like in case statements or goto
 editor.label.style = #969696,bold
 
-
 # TEXT - COMMENTS
 editor.comment1.style = #86db51,plain
 editor.comment2.style = #86db51,plain
 
 
-# LINE STATUS - editor line number status bar at the bottom of the screen
+# GUI - STATUS
+status.notice.fgcolor = #aaaaaa
+status.notice.bgcolor = #363636
+status.error.fgcolor = #ffffff
+status.error.bgcolor = #805a51
+status.edit.fgcolor = #000000
+status.edit.bgcolor = #cc9900
+status.font = SansSerif,plain,14
+
+
+# GUI - CONSOLE
+console.font = Monospaced,plain,12
+console.font.macosx = Monaco,plain,11
+console.color = #000000
+console.output.color = #ffffff
+console.error.color = #cc3300
+
+
+# GUI - LINESTATUS(bar at the bottom of the screen)
+linestatus.color = #ffffff
+linestatus.bgcolor = #424242
 linestatus.font	   = SansSerif,plain,14
 linestatus.height  = 20
+
+
+# GUI - PLOTTING
+# color cycle created via colorbrewer2.org
+plotting.bgcolor = #ffffff
+plotting.color = #ffffff
+plotting.graphcolor.size = 4
+plotting.graphcolor.00 = #2c7bb6
+plotting.graphcolor.01 = #fdae61
+plotting.graphcolor.02 = #d7191c
+plotting.graphcolor.03 = #abd9e9
