@@ -100,7 +100,7 @@ console.font = Monospaced,plain,12
 console.font.macosx = Monaco,plain,11
 console.color = #000000
 console.output.color = #ffffff
-console.error.color = #cc3300
+console.error.color = #e34c00
 
 
 # GUI - LINESTATUS(bar at the bottom of the screen)
