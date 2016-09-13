@@ -1,5 +1,5 @@
 # GUI - STATUS
-status.notice.fgcolor = #AAAAAA
+status.notice.fgcolor = #aaaaaa
 status.notice.bgcolor = #363636
 status.error.fgcolor = #ffffff
 status.error.bgcolor = #805a51	
