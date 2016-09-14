@@ -27,6 +27,16 @@ buttons.bgcolor = #044f6f
 buttons.status.font = SansSerif,plain,12
 buttons.status.color = #ffffff
 
+# GUI - PLOTTING
+# color cycle created via colorbrewer2.org
+plotting.bgcolor = #ffffff
+plotting.color = #ffffff
+plotting.graphcolor.size = 4
+plotting.graphcolor.00 = #2c7bb6
+plotting.graphcolor.01 = #fdae61
+plotting.graphcolor.02 = #d7191c
+plotting.graphcolor.03 = #abd9e9
+
 # GUI - LINESTATUS
 linestatus.color = #ffffff
 linestatus.bgcolor = #044f6f
@@ -67,21 +77,33 @@ editor.brackethighlight.color = #006699
 
 # e.g abstract, final, private
 editor.keyword1.style = #cc6600,plain
+editor.data_type.style = #cc6600,bold
 
 # e.g. beginShape, point, line
 editor.keyword2.style = #cc6600,plain
+editor.function.style = #cc6600,plain
 
 # e.g. byte, char, short, color
 editor.keyword3.style = #cc6600,bold
+editor.reserved_word.style = #cc6600,plain
 
 
 # TEXT - LITERALS
 
 # constants: e.g. null, true, this, RGB, TWO_PI
 editor.literal1.style = #006699,plain
+editor.reserved_word_2.style = #006699,plain
 
 # p5 built in variables: e.g. mouseX, width, pixels
 editor.literal2.style = #006699,plain
+editor.variable.style = #006699,plain
+editor.literal_boolean.style = #006699,plain
+editor.literal_char.style = #006699,plain
+editor.literal_string_double_quote.style = #005c5f,plain
+editor.preprocessor.style = #5e6d03,plain
+
+# http://www.arduino.cc/
+editor.url.style = #0000ff,underlined
 
 # e.g. + - = /
 editor.operator.style = #000000,plain
