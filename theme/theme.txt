@@ -1,83 +1,44 @@
-# STATUS
-# Status messages (1 file added to sketch, errors, etc)
+# GUI - STATUS
 status.notice.fgcolor = #000000
 status.notice.bgcolor = #818b95
 status.error.fgcolor = #ffffff
 status.error.bgcolor = #9e0a0a
-status.warning.bgcolor = #ef8115
-status.warning.fgcolor = #ffffff
-status.url.fgcolor = #cccccc
 status.font = processing.sans,plain,13
 
-# HEADER TABS
-# Settings for the tab area at the top.
-header.text.font = processing.sans,bold,14
+# GUI - TABS
+# (tab images are stored in the lib/theme folder)
+header.bgcolor = #132638
 header.text.selected.color = #000000
 header.text.unselected.color = #ffffff
-header.tab.arrow.color = #ffffff
-header.gradient.top = #132638
-header.gradient.bottom = #122535
-header.tab.selected.color = #e0fffd
-header.tab.unselected.color = #2d4251
-header.tab.modified.color = #ef8115
+header.text.font = processing.sans,bold,14
 
-# FOOTER TABS
-footer.text.font = processing.sans,bold,12
-footer.text.selected.color = #e0fffd
-footer.text.unselected.color = #95adb0
-footer.tab.arrow.color = #ffffff
-footer.gradient.top = #132638
-footer.gradient.bottom = #122535
-footer.tab.selected.color = #2d4251
-footer.tab.unselected.color = #1f3241
-# updates orange #eb7f15
-footer.updates.color = #ed7f15
-
-# CONSOLE
-# The font is handled by preferences, so its size/etc are modifiable.
+# GUI - CONSOLE
+console.font = Monospaced,plain,11
+console.font.macosx = Monaco,plain,10
 console.color = #000000
 console.output.color = #cccccc
-# text color for errors printed in the console
+# text color for warnings/errors printed in the console
 console.error.color = #d9211e
 
-# TOOLBAR BUTTONS
-buttons.bgcolor = #000000
+# GUI - BUTTONS
+buttons.bgcolor = #132638
+buttons.status.font = processing.sans,plain,12
+buttons.status.color = #ffffff
 
-# for the debug and mode buttons
-#reversed.gradient.top = #10212f
-#reversed.gradient.bottom = #122637
 
-## size of divider between editing area and the console
-#divider.size = 0
-## the larger divider on windows is ugly with the little arrows
-## this makes it large enough to see (mouse changes) and use, 
-## but keeps it from being annoyingly obtrusive
-#divider.size.windows = 2
+# GUI - PLOTTING
+# color cycle created via colorbrewer2.org
+plotting.bgcolor = #ffffff
+plotting.color = #ffffff
+plotting.graphcolor.size = 4
+plotting.graphcolor.00 = #2c7bb6
+plotting.graphcolor.01 = #fdae61
+plotting.graphcolor.02 = #d7191c
+plotting.graphcolor.03 = #abd9e9
 
-divider.height = 9
-divider.color = #cccccc
-divider.dot.diameter = 3
-divider.dot.color = #505050
-
-# TOOLBAR BUTTON TEXT
-toolbar.rollover.font = processing.sans,plain,12
-toolbar.rollover.color = #ffffff
-toolbar.gradient.top = #142a3e
-toolbar.gradient.bottom = #132638
-
-# MODE SELECTOR
-#mode.title.font = processing.sans,bold,15
-mode.title.font = processing.sans,plain,12
-mode.title.color = #ffffff
-# outline color of the mode button
-#mode.button.color = #ffffff
-#mode.button.gap = 13
-#mode.arrow.width
-#mode.background.color = #3d5362
-# stolen from gradient bottom
-mode.background.color = #132638
-mode.outline.color = #3a505e
-
+# GUI - LINESTATUS
+linestatus.color = #e0fffd
+linestatus.bgcolor = #132638
 
 # EDITOR - DETAILS
 
@@ -85,16 +46,18 @@ mode.outline.color = #3a505e
 editor.fgcolor = #000000
 editor.bgcolor = #ffffff
 
-editor.gradient.top = #122535
-editor.gradient.bottom = #010305
-
 # highlight for the current line
-#editor.linehighlight.color=#e2e2e2
 editor.linehighlight.color=#ebfffd
 # highlight for the current line
 editor.linehighlight=true
 
+# caret blinking and caret color
 editor.caret.color = #333300
+
+# color to be used for background when 'external editor' enabled
+editor.external.bgcolor = #c8d2dc
+
+# selection color
 editor.selection.color = #ffcc00
 
 # area that's not in use by the text (replaced with tildes)
@@ -108,63 +71,50 @@ editor.eolmarkers.color = #999999
 editor.brackethighlight = true
 editor.brackethighlight.color = #006699
 
-editor.gutter.text.font = processing.mono,plain,11
-#editor.gutter.text.color = #657d87
-#editor.gutter.text.color = #587478
-editor.gutter.text.color = #bbd6d5
 
-# marker for breakpointed lines in left hand gutter (2 ascii characters)
-#editor.gutter.breakpoint.marker = <>
-#editor.gutter.breakpoint.marker.color = #4a545e
+# TEXT - KEYWORDS
 
-# marker for the current line in left hand gutter (2 ascii characters)
-#editor.gutter.currentline.marker = ->
-#editor.gutter.currentline.marker.color = #e27500
+# FUNCTIONS
+editor.keyword1.style = #d35400,bold
+editor.data_type.style = #d35400,bold
 
-# bgcolor for the current (highlighted) line
-editor.gutter.linehighlight.color=#587478
+# METHODS
+editor.keyword2.style = #d35400,plain
+editor.function.style = #d35400,plain
 
-# left- and right-hand gutter color
-editor.gutter.bgcolor = #122535
+# STRUCTURES
+editor.keyword3.style = #5e6d03,plain
+editor.reserved_word.style = #5e6d03,plain
 
-# color of vertical separation line
-#gutter.linecolor = #e9e9e9
-# space (in px) added to left and right of gutter markers
-editor.gutter.padding = 3
 
-# squiggly line underneath errors in the editor
-editor.error.underline.color = #c40e0e
-# squiggly line underneath warnings
-editor.warning.underline.color = #ffc30e
-# lines next to the scrollbar showing where errors are located
-editor.column.error.color = #9F1613
-editor.column.warning.color = #ffc30e
+# TEXT - LITERALS
+editor.literal1.style = #00979c,plain
+editor.reserved_word_2.style = #00979c,plain
 
-# not in use?
-#breakpoint.bgcolor = #f0f0f0
-#currentline.bgcolor = #ffff96
+editor.literal2.style = #00979c,plain
+editor.variable.style = #00979c,plain
+editor.literal_boolean.style = #00979c,plain
+editor.literal_char.style = #00979c,plain
+editor.literal_string_double_quote.style = #005c5f,plain
+editor.preprocessor.style = #5e6d03,plain
 
-errors.header.font = processing.sans,plain,12
-errors.header.bgcolor = #ebebeb
-errors.header.fgcolor = #484848
-errors.row.font = processing.sans,plain,12
-errors.row.fgcolor = #484848
-errors.row.bgcolor = #ffffff
-errors.selection.fgcolor = #242424
-errors.selection.bgcolor = #e5e5e5
-errors.selection.error.bgcolor = #f5e6e6
-errors.selection.warning.bgcolor = #fdf2e7
-#errors.indicator.size = 3
-errors.indicator.error.color = #9e0a0a
-errors.indicator.warning.color = #ef8115
+# http://www.arduino.cc/
+editor.url.style = #0000ff,underlined
 
-manager.tab.selected.color = #e0fffd
-manager.tab.unselected.color = #2d4251
-manager.tab.text.font = processing.sans,bold,14
-manager.tab.text.selected.color = #000000
-manager.tab.text.unselected.color = #ffffff
-# orange circle for updates
-manager.tab.update.color = #ed7f15
-manager.tab.gradient.top = #132638
-manager.tab.gradient.bottom = #122535
-manager.tab.background = #132638
+# e.g. + - = /
+editor.operator.style = #434f54,plain
+
+
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #7e7e7e,bold
+
+
+# TEXT - COMMENTS
+editor.comment1.style = #434f54,plain
+editor.comment2.style = #95a5a6,plain
+
+
+# LINE STATUS - editor line number status bar at the bottom of the screen
+linestatus.font	   = processing.sans,bold,12
+linestatus.height  = 20
