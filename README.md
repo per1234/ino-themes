@@ -25,3 +25,7 @@ A collection of themes for the [Arduino](http://arduino.cc) IDE. They are compat
 - [gioblu](https://github.com/gioblu) - Author of the ArduOpen theme, which was the basis for the themeDark-Jerware theme.
 - [Jerware](http://forum.arduino.cc/index.php?action=profile;u=119105) - Author of the themeDark-Jerware theme, which was the basis for the themeDark-smilem theme.
 - [smilem](http://forum.arduino.cc/index.php?action=profile;u=224574) - Author of the themeDark-smilem theme.
+
+
+#### Contributing
+Pull requests or issue reports(including requests to contribute additional themes) are welcome! Please see the [contribution rules](https://github.com/per1234/ino-themes/blob/master/CONTRIBUTING.md) for instructions.
