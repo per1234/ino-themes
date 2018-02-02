@@ -105,7 +105,7 @@ console.error.color = #ff3000
 # GUI - LINESTATUS - editor line number status bar at the bottom of the screen
 linestatus.color = #ffffff
 linestatus.bgcolor = #044f6f
-linestatus.font	   = SansSerif,plain,10
+linestatus.font = SansSerif,plain,10
 linestatus.height  = 20
 
 
