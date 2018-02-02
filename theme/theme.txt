@@ -18,9 +18,9 @@ editor.fgcolor = #000000
 editor.bgcolor = #ffffff
 
 # highlight for the current line
-editor.linehighlight.color=#ebfffd
+editor.linehighlight.color = #ebfffd
 # highlight for the current line
-editor.linehighlight=true
+editor.linehighlight = true
 
 # caret blinking and caret color
 editor.caret.color = #333300
@@ -101,8 +101,8 @@ console.error.color = #d9211e
 # GUI - LINESTATUS - editor line number status bar at the bottom of the screen
 linestatus.color = #e0fffd
 linestatus.bgcolor = #132638
-linestatus.font	   = processing.sans,bold,12
-linestatus.height  = 20
+linestatus.font = processing.sans,bold,12
+linestatus.height = 20
 
 
 # GUI - PLOTTING
