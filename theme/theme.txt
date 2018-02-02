@@ -106,8 +106,8 @@ console.error.color = #e34c00
 # GUI - LINESTATUS(bar at the bottom of the screen)
 linestatus.color = #ffffff
 linestatus.bgcolor = #424242
-linestatus.font	   = SansSerif,plain,14
-linestatus.height  = 20
+linestatus.font = SansSerif,plain,14
+linestatus.height = 20
 
 
 # GUI - PLOTTING
