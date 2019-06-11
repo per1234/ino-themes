@@ -28,4 +28,4 @@ A collection of themes for the [Arduino](http://arduino.cc) IDE. They are compat
 
 
 #### Contributing
-Pull requests or issue reports(including requests to contribute additional themes) are welcome! Please see the [contribution rules](https://github.com/per1234/ino-themes/blob/master/CONTRIBUTING.md) for instructions.
+Pull requests or issue reports(including requests to contribute additional themes) are welcome! Please see the [contribution rules](https://github.com/per1234/ino-themes/blob/master/.github/CONTRIBUTING.md) for instructions.
