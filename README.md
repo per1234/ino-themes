@@ -8,3 +8,6 @@ Due to changes in the Arduino IDE, the original theme files caused the IDE to no
 Installation instructions at https://github.com/per1234/ino-themes.
 
 ![screenshot](https://github.com/per1234/ino-themes/raw/themeDark-smilem/screenshot.jpg)
+
+#### Contributing
+Pull requests or issue reports(including requests to contribute additional themes) are welcome! Please see the [contribution rules](https://github.com/per1234/ino-themes/blob/master/.github/CONTRIBUTING.md) for instructions.
