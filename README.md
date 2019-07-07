@@ -1,5 +1,5 @@
 # ino-themes
-A collection of themes for the [Arduino](http://arduino.cc) IDE. They are compatible with Arduino IDE 1.6.11 and all previous versions.
+A collection of themes for the [Arduino](http://arduino.cc) IDE. They are compatible with Arduino IDE 1.8.9 and all previous versions.
 
 
 #### Themes
