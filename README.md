@@ -14,7 +14,8 @@ A collection of themes for the [Arduino](http://arduino.cc) IDE. They are compat
 #### Installation
 - Back up your current theme by rename the folder **{Arduino IDE installation folder}/lib/theme** to **theme.original** or any other convenient name.
 - Download the desired theme from the download link on the list above.
-- From the downloaded .zip file extract the **theme** folder to **{Arduino IDE installation folder}/lib**.
+- Unzip the downloaded file.
+- Copy the **theme** folder from the unzipped folder to **{Arduino IDE installation folder}/lib**.
 - Restart the Arduino IDE if it's running.
 
 
