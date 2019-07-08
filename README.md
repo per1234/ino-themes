@@ -1,5 +1,5 @@
 # ino-themes
-A collection of themes for the [Arduino](http://arduino.cc) IDE. They are compatible with Arduino IDE 1.6.11 and all previous versions.
+A collection of themes for the [Arduino](http://arduino.cc) IDE. They are compatible with Arduino IDE 1.8.9 and all previous versions.
 
 
 #### Themes
@@ -14,7 +14,8 @@ A collection of themes for the [Arduino](http://arduino.cc) IDE. They are compat
 #### Installation
 - Back up your current theme by rename the folder **{Arduino IDE installation folder}/lib/theme** to **theme.original** or any other convenient name.
 - Download the desired theme from the download link on the list above.
-- Copy the theme folder from the downloaded file to **{Arduino IDE installation folder}/lib**.
+- Unzip the downloaded file.
+- Copy the **theme** folder from the unzipped folder to **{Arduino IDE installation folder}/lib**.
 - Restart the Arduino IDE if it's running.
 
 
